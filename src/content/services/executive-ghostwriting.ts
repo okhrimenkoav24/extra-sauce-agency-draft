@@ -1,0 +1,116 @@
+// EXECUTIVE GHOSTWRITING SERVICE PAGE CONTENT
+// Edit this file to change content for the Executive Ghostwriting service page
+
+export const heroSection = {
+  title: "Executive Ghostwriting",
+  description: "Become a thought leader. Great executive content is the perfect blend of your expertise and personality.",
+  primaryButton: "Learn More"
+};
+
+export const secondaryHeroSection = {
+  headline: "Become a thought leader.",
+  description: "Great executive content is the perfect blend of your expertise and personality.",
+  metrics: [
+    {
+      value: "4 Hr/mo",
+      label: "Minimal time investment"
+    },
+    {
+      value: "11-18/mo", 
+      label: "Qualified Meetings"
+    },
+    {
+      value: "~3 Months",
+      label: "Expected ROI"
+    }
+  ]
+};
+
+export const systemSection = {
+  headline: "THE SYSTEM THAT WORKS FOR BUSY EXECUTIVES",
+  description: "The SAUCE Recipe™ turns your executive insights into a realm of influence on social media.",
+  steps: [
+    {
+      title: "Finding Your Content Market Fit",
+      description: "We test hooks, formats, and messaging to uncover what resonates with your audience. From scroll-stopping posts to strategic storytelling—we find the tone and topics that make your content stick."
+    },
+    {
+      title: "Establish Your Strategic Narrative",
+      description: "We position you at the center of relevant industry shifts, not trends. This builds urgency and confidence so prospects leave outdated solutions behind and lean into your voice of authority."
+    },
+    {
+      title: "Grow Community With Social Selling",
+      description: "We align content with your inbound & outbound sales motions to create conversation, not just impressions. Build a realm of influence and a network that's ready to buy."
+    }
+  ]
+};
+
+export const testimonialSection = {
+  quote: "Manny's expertise and dedication have been instrumental in packaging our service offerings with clarity, crafting a compelling strategic narrative, and generating insightful content on LinkedIn that drives leads.",
+  author: "Marlene Gamba",
+  title: "CEO, Company",
+  image: "/chili.png"
+};
+
+export const benefitsSection = {
+  headline: "BENEFITS: GHOSTWRITING",
+  description: "Our executive ghostwriting service doesn't just save you time—it builds real market presence. Here's how we deliver value across every post:",
+  benefits: [
+    {
+      title: "Get back to your core business",
+      description: "We handle the content engine so you can focus on strategic priorities. No more getting lost in social media or second-guessing posts."
+    },
+    {
+      title: "A personal brand that compounds",
+      description: "Thought leadership isn't a thing—it's a long-term asset. We help you build credibility that scales with your career and attracts the right kind of attention."
+    },
+    {
+      title: "Build a tribe with the right clients",
+      description: "Your content becomes a filter for qualified, like-minded buyers—so the leads you attract are already aligned and ready to move forward."
+    },
+    {
+      title: "Stop wasting your AE hours",
+      description: "Cold outbound reply rates have tanked in 2025. Your AEs shouldn't waste time chasing cold leads—they should be closing warm ones. Strategic ghostwritten content builds authority."
+    },
+    {
+      title: "Consistency & Scaleable",
+      description: "Your ghostwritten content becomes the foundation for communication alignment across the organization and get our proprietary systems to scale content."
+    }
+  ]
+};
+
+export const faqSection = {
+  headline: "Frequently Asked Questions",
+  description: "Everything you need to know about our services and process.",
+  questions: [
+    {
+      question: "How long until we should expect results?",
+      answer: "You will be able to generate 11-16 high-converting leads in your inbox every month after generating an initial realm of influence anywhere from 2-5 months and the client's product typical sales cycle plays a role."
+    },
+    {
+      question: "What is the difference between founder-led marketing & personal branding?",
+      answer: "Founder-led marketing focuses on building business value and driving pipeline through strategic content, while personal branding is more about individual reputation. We align your personal expertise with business goals."
+    },
+    {
+      question: "Why should we work with your agency for B2B content?",
+      answer: "We've built our own agency using the same SAUCE™ Recipe we share with clients. We understand the challenges of B2B growth and have proven systems that work across multiple industries."
+    },
+    {
+      question: "Can executive ghostwriting be tailored to my industry?",
+      answer: "Yes, our ghostwriting service is customized to your industry, audience, and business goals to ensure your content is relevant and impactful."
+    },
+    {
+      question: "How do you capture my voice and expertise in ghostwritten content?",
+      answer: "We conduct in-depth interviews and use proprietary frameworks to ensure your unique insights, tone, and personality are reflected in every piece of content."
+    },
+    {
+      question: "What is the onboarding process for executive ghostwriting?",
+      answer: "Our onboarding includes a strategy session, content planning, and a collaborative review process to align on goals, messaging, and preferred content formats."
+    }
+  ]
+};
+
+export const ctaSection = {
+  headline: "Ready for a strategy call?",
+  buttonText: "Talk with Manny"
+};
