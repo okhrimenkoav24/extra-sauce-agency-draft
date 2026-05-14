@@ -8,6 +8,7 @@ import FAQSection from "@/components/sections/homepage/FAQSection";
 import { faqSection } from "@/content/services/video-content-engine";
 import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
 import { organizationSchema } from "@/data/structured-data";
+import { publicAsset } from '@/lib/assetPath';
 
 const VideoContentEngine = () => {
   const systemSteps = [
@@ -184,7 +185,7 @@ const VideoContentEngine = () => {
               <div className="flex items-center gap-8">
                 <div className="w-24 h-24 bg-primary rounded-full overflow-hidden flex-shrink-0 flex items-center justify-center">
                   <img
-                    src="/viksoni.png"
+                    src={publicAsset("/viksoni.png")}
                     alt="Vik Soni"
                     className="w-full h-full object-cover"
                   />

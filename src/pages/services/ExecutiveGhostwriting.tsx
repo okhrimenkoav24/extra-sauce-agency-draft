@@ -8,6 +8,7 @@ import FAQSection from "@/components/sections/homepage/FAQSection";
 import { faqSection } from "@/content/services/executive-ghostwriting";
 import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
 import { organizationSchema } from "@/data/structured-data";
+import { publicAsset } from '@/lib/assetPath';
 
 const ExecutiveGhostwriting = () => {
   const systemSteps = [
@@ -184,7 +185,7 @@ const ExecutiveGhostwriting = () => {
               <div className="flex items-center gap-8">
                 <div className="w-24 h-24 bg-primary rounded-full overflow-hidden flex-shrink-0 flex items-center justify-center">
                   <img
-                    src="/sharlenegumbs.png"
+                    src={publicAsset("/sharlenegumbs.png")}
                     alt="Sharlene Gumbs"
                     className="w-full h-full object-cover"
                   />

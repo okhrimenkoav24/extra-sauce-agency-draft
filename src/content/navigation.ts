@@ -1,3 +1,4 @@
+import { publicAsset } from '@/lib/assetPath';
 // NAVIGATION CONTENT
 // Edit this file to change navigation menu items and buttons
 
@@ -24,7 +25,7 @@ export const ctaButton = {
 };
 
 export const logo = {
-  chiliImage: "/chili.png",
-  sauceImage: "/sauce.png",
+  chiliImage: publicAsset("/chili.png"),
+  sauceImage: publicAsset("/sauce.png"),
   altText: "Extra Sauce Logo"
 };

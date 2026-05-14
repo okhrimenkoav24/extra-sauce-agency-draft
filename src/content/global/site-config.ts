@@ -1,3 +1,4 @@
+import { publicAsset } from '@/lib/assetPath';
 // GLOBAL SITE CONFIGURATION
 // This file contains site-wide settings that affect the entire website
 
@@ -26,8 +27,8 @@ export const siteConfig = {
   // Brand Assets
   branding: {
     logo: {
-      chili: "/chili.png",
-      sauce: "/sauce.png",
+      chili: publicAsset("/chili.png"),
+      sauce: publicAsset("/sauce.png"),
       altText: "Extra Sauce Logo"
     },
     colors: {
@@ -42,7 +43,7 @@ export const siteConfig = {
     defaultTitle: "Extra Sauce Agency | Unleash Growth with Founder-Led Marketing for B2B SaaS",
     defaultDescription: "Drive your B2B SaaS startup's growth with Extra Sauce Agency's unique Founder-Led Marketing strategy. Build authentic connections, enhance your brand's credibility, and generate demand by leveraging your founder's insights.",
     keywords: ["B2B marketing", "founder-led marketing", "content marketing", "SaaS growth", "thought leadership"],
-    ogImage: "/og-image.png"
+    ogImage: publicAsset("/og-image.png")
   },
   
   // Analytics & Tracking

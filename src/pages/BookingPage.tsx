@@ -4,6 +4,7 @@ import { Check, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState, useEffect } from "react";
 import { InlineWidget } from "react-calendly";
 import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
+import { publicAsset } from '@/lib/assetPath';
 
 const BookingPage = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
@@ -13,31 +14,31 @@ const BookingPage = () => {
       quote: "We've had old prospects come back to book a demo and thought we were a completely different company.",
       author: "Vik Saini",
       title: "Head Of Sales",
-      avatar: "/viksoni.png"
+      avatar: publicAsset("/viksoni.png")
     },
     {
       quote: "I just want to say, I have a good ghostwriter.",
       author: "Nadia Irani", 
       title: "CEO & Founder",
-      avatar: "/nadiairani.png"
+      avatar: publicAsset("/nadiairani.png")
     },
     {
       quote: "Manny came in and helped us streamline our social media distribution system and kept us up to date with the best strategies. We've seen massive growth the last 6 months.",
       author: "Alex Salois",
       title: "Senior Content Manager", 
-      avatar: "/alexsalois.png"
+      avatar: publicAsset("/alexsalois.png")
     },
     {
       quote: "Manny's expertise & dedication have been instrumental in crafting a compelling strategic narrative, and generating insightful content on LinkedIn that drives leads.",
       author: "Sharlene Gumbs ",
       title: "CEO & Founder",
-      avatar: "/sharlenegumbs.png"
+      avatar: publicAsset("/sharlenegumbs.png")
     },
     {
       quote: "I've been able to connect with the exact decision-makers in the companies we want to work with - The relationship is so much better this way than a cold approach.",
       author: "Phillip Lunn ",
       title: "CEO & Founder",
-      avatar: "/philliplunn.png"
+      avatar: publicAsset("/philliplunn.png")
     },
   ];
 
@@ -64,13 +65,13 @@ const BookingPage = () => {
   ];
 
   const companies = [
-    { name: "Goalcast", logo: "/company images/goalcast.png" },
-    { name: "Alam Law", logo: "/company images/alam.png" },
-    { name: "FuelPlus", logo: "/company images/fuel.png" },
-    { name: "Khalsa Aid", logo: "/company images/khalsaaid.png" },
-    { name: "CymCorp", logo: "/company images/cymcorp.png" },
-    { name: "Depix", logo: "/company images/depix.png" },
-    { name: "TVO Kids", logo: "/company images/tvokids.png" },
+    { name: "Goalcast", logo: publicAsset("/company images/goalcast.png") },
+    { name: "Alam Law", logo: publicAsset("/company images/alam.png") },
+    { name: "FuelPlus", logo: publicAsset("/company images/fuel.png") },
+    { name: "Khalsa Aid", logo: publicAsset("/company images/khalsaaid.png") },
+    { name: "CymCorp", logo: publicAsset("/company images/cymcorp.png") },
+    { name: "Depix", logo: publicAsset("/company images/depix.png") },
+    { name: "TVO Kids", logo: publicAsset("/company images/tvokids.png") },
   ];
 
   const allCompanies = [...companies, ...companies]; 

@@ -8,6 +8,7 @@ import FAQSection from "@/components/sections/homepage/FAQSection";
 import { faqSection } from "@/content/services/content-led-gtm-coaching";
 import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
 import { organizationSchema } from "@/data/structured-data";
+import { publicAsset } from '@/lib/assetPath';
 
 const ContentLedGTMCoaching = () => {
   const systemSteps = [
@@ -185,7 +186,7 @@ const ContentLedGTMCoaching = () => {
               <div className="flex items-center gap-8">
                 <div className="w-24 h-24 bg-primary rounded-full overflow-hidden flex-shrink-0 flex items-center justify-center">
                   <img
-                    src="/faysalkhaled.png"
+                    src={publicAsset("/faysalkhaled.png")}
                     alt="Faysal Khaled"
                     className="w-full h-full object-cover"
                   />

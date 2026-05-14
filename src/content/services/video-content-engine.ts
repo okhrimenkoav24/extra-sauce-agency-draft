@@ -1,3 +1,4 @@
+import { publicAsset } from '@/lib/assetPath';
 // VIDEO CONTENT ENGINE SERVICE PAGE CONTENT
 // Edit this file to change content for the Video Content Engine service page
 
@@ -49,7 +50,7 @@ export const testimonialSection = {
   quote: "Extra Sauce completely shifted how we approach lead generation. Instead of wasting time at tradeshows or chasing cold leads, we now have warm conversations weekly with prospects who already trust us. The content positions our product as the go-to in our space, and pipeline has never been stronger.",
   author: "Vik Sejal",
   title: "Head of Sales",
-  image: "/chili.png"
+  image: publicAsset("/chili.png")
 };
 
 export const benefitsSection = {

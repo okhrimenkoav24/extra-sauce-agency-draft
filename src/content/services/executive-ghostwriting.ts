@@ -1,3 +1,4 @@
+import { publicAsset } from '@/lib/assetPath';
 // EXECUTIVE GHOSTWRITING SERVICE PAGE CONTENT
 // Edit this file to change content for the Executive Ghostwriting service page
 
@@ -49,7 +50,7 @@ export const testimonialSection = {
   quote: "Manny's expertise and dedication have been instrumental in packaging our service offerings with clarity, crafting a compelling strategic narrative, and generating insightful content on LinkedIn that drives leads.",
   author: "Marlene Gamba",
   title: "CEO, Company",
-  image: "/chili.png"
+  image: publicAsset("/chili.png")
 };
 
 export const benefitsSection = {

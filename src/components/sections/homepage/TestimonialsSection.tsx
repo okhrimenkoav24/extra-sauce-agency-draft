@@ -3,6 +3,7 @@ import { Quote, Star, ArrowLeft, ArrowRight, TrendingUp, Users, DollarSign, BarC
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { publicAsset } from '@/lib/assetPath';
 
 const Testimonials = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
@@ -12,7 +13,7 @@ const Testimonials = () => {
       quote: "We've had old prospects come back to book a demo and thought we were a completely different company.",
       author: "Vik Saini",
       title: "Head of Sales, PSII",
-      avatar: "/viksoni.png",
+      avatar: publicAsset("/viksoni.png"),
       impact: "Podcast Show",
       metrics: [
         { label: "ARR Added", value: "$428K ARR", icon: DollarSign },
@@ -26,7 +27,7 @@ const Testimonials = () => {
       quote: "I just want to say, I have a good ghostwriter.",
       author: "Nadia Irani",
       title: "CEO & Founder", 
-      avatar: "/nadiairani.png",
+      avatar: publicAsset("/nadiairani.png"),
       impact: "Executive Ghostwriting Service",
       metrics: [
         { label: "Content Performance", value: "1.5 million impressions", icon: TrendingUp },
@@ -40,7 +41,7 @@ const Testimonials = () => {
       quote: "Manny came in and helped us streamline our social media distribution system and kept us up to date with the best strategies. We've seen massive growth the last 6 months.",
       author: "Sharlene Gumbs",
       title: "CEO & Founder",
-      avatar: "/sharlenegumbs.png",
+      avatar: publicAsset("/sharlenegumbs.png"),
       impact: "Content-led GTM Coaching",
       metrics: [
         { label: "Personal Brand", value: "Revamp Complete", icon: CheckCircle },
@@ -54,7 +55,7 @@ const Testimonials = () => {
       quote: "Manny's expertise & dedication have been instrumental in crafting a compelling strategic narrative, and generating insightful content on LinkedIn that drives leads.",
       author: "EasyAudit Team",
       title: "Leadership Team",
-      avatar: "/alexsalois.png", 
+      avatar: publicAsset("/alexsalois.png"), 
       impact: "Content-led GTM Coaching",
       metrics: [
         { label: "Business Impact", value: "Investor Meetings Secured", icon: TrendingUp },

@@ -3,6 +3,7 @@ import { Play, Pause, Users, Target, TrendingUp, Building, MessageSquare, Dollar
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { sauceRecipeContent } from "@/content/pages/saucerecipe";
+import { publicAsset } from '@/lib/assetPath';
 
 const SauceRecipe = () => {
   const [currentStep, setCurrentStep] = useState(1);
@@ -161,7 +162,7 @@ const SauceRecipe = () => {
               <div className="mt-8 flex items-center gap-4 bg-background/50 rounded-xl p-4">
                 <audio 
                   ref={audioRef}
-                  src="/howitstarted.mp3"
+                  src={publicAsset("/howitstarted.mp3")}
                   onTimeUpdate={handleTimeUpdate}
                   onLoadedMetadata={handleLoadedMetadata}
                   onEnded={handleAudioEnded}

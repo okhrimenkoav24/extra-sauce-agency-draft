@@ -5,6 +5,7 @@ import Footer from "@/components/shared/Footer";
 import { Button } from "@/components/ui/button";
 import { Home, Search, ArrowLeft } from "lucide-react";
 import EnhancedSEOHead from "@/components/SEO/EnhancedSEOHead";
+import { publicAsset } from '@/lib/assetPath';
 
 const NotFound = () => {
   const location = useLocation();
@@ -43,7 +44,7 @@ const NotFound = () => {
             <div className="mb-12">
               <div className="mb-8">
                 <img 
-                  src="/chili.png" 
+                  src={publicAsset("/chili.png")} 
                   alt="Extra Sauce Chili" 
                   className="w-20 h-20 mx-auto mb-6 opacity-60"
                 />

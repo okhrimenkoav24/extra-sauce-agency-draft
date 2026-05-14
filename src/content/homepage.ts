@@ -1,3 +1,4 @@
+import { publicAsset } from '@/lib/assetPath';
 // HOMEPAGE CONTENT
 // Edit this file to change text, metrics, and other content on the homepage
 
@@ -15,35 +16,35 @@ export const trustedBySection = {
   companies: [
     {
       name: "Irani Law",
-      logo: "/company images/irani-law.png",
+      logo: publicAsset("/company images/irani-law.png"),
     },
     {
       name: "True Ally",
-      logo: "/company images/true-ally.png",
+      logo: publicAsset("/company images/true-ally.png"),
     },
     {
       name: "PSII",
-      logo: "/company images/psii.png",
+      logo: publicAsset("/company images/psii.png"),
     },
     {
       name: "CYM",
-      logo: "/company images/cymcorp.png",
+      logo: publicAsset("/company images/cymcorp.png"),
     },
     {
       name: "Goalcast",
-      logo: "/company images/goalcast.png",
+      logo: publicAsset("/company images/goalcast.png"),
     },
     {
       name: "Carmina Manufacturing",
-      logo: "/company images/carmina-manufacturing.png",
+      logo: publicAsset("/company images/carmina-manufacturing.png"),
     },
     {
       name: "Depix",
-      logo: "/company images/depix.png",
+      logo: publicAsset("/company images/depix.png"),
     },
     {
       name: "Faysal's Company",
-      logo: "/company images/faysal-company.png",
+      logo: publicAsset("/company images/faysal-company.png"),
     },
     {
       name: "Joel Charter's Company",

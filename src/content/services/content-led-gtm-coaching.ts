@@ -1,3 +1,4 @@
+import { publicAsset } from '@/lib/assetPath';
 // CONTENT-LED GTM COACHING SERVICE PAGE CONTENT
 // Edit this file to change content for the Content-led GTM Coaching service page
 
@@ -49,7 +50,7 @@ export const testimonialSection = {
   quote: "Working with Extra Sauce has been a game-changer for my business. Manny brings incredible clarity to our marketing and messaging, and their strategic narratives and content creation are top-notch. I love how systemized their process is; I can see real progress with every single session. Highly recommend!",
   author: "Forest Khalil",
   title: "Founder",
-  image: "/chili.png"
+  image: publicAsset("/chili.png")
 };
 
 export const benefitsSection = {

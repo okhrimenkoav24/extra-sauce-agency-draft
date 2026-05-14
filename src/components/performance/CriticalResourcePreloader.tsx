@@ -1,11 +1,12 @@
 import { useEffect } from 'react';
+import { publicAsset } from '@/lib/assetPath';
 
 const CriticalResourcePreloader = () => {
   useEffect(() => {
     // Preload critical images after initial render
     const criticalImages = [
-      '/sauce.png',
-      '/chili.png'
+      publicAsset('/sauce.png'),
+      publicAsset('/chili.png')
     ];
 
     criticalImages.forEach(src => {

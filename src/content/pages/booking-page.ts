@@ -1,3 +1,4 @@
+import { publicAsset } from '@/lib/assetPath';
 // BOOKING PAGE CONTENT
 // Edit this file to change content for the strategy call booking page
 
@@ -29,31 +30,31 @@ export const testimonialSection = {
       quote: "We've had old prospects come back to book a demo and thought we were a completely different company.",
       author: "Vik Soni",
       title: "Head Of Sales",
-      avatar: "/viksoni.png"
+      avatar: publicAsset("/viksoni.png")
     },
     {
       quote: "I just want to say, I have a good ghostwriter.",
       author: "Nadia Irani", 
       title: "CEO & Founder",
-      avatar: "/nadiairani.png"
+      avatar: publicAsset("/nadiairani.png")
     },
     {
       quote: "Manny came in and helped us streamline our social media distribution system and kept us up to date with the best strategies. We've seen massive growth the last 6 months.",
       author: "Alex Salois",
       title: "Senior Content Manager", 
-      avatar: "/alexsalois.png"
+      avatar: publicAsset("/alexsalois.png")
     },
     {
       quote: "Manny's expertise & dedication have been instrumental in crafting a compelling strategic narrative, and generating insightful content on LinkedIn that drives leads.",
       author: "Sharlene Gumbs",
       title: "CEO & Founder",
-      avatar: "/sharlenegumbs.png"
+      avatar: publicAsset("/sharlenegumbs.png")
     },
     {
       quote: "I've been able to connect with the exact decision-makers in the companies we want to work with - The relationship is so much better this way than a cold approach.",
       author: "Phillip Lunn",
       title: "CEO & Founder",
-      avatar: "/philliplunn.png"
+      avatar: publicAsset("/philliplunn.png")
     }
   ]
 };

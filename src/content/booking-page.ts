@@ -1,3 +1,4 @@
+import { publicAsset } from '@/lib/assetPath';
 // BOOKING PAGE CONTENT
 // Edit this file to change content for the strategy call booking page
 
@@ -15,7 +16,7 @@ export const testimonialSection = {
   quote: "We've had old prospects come back to book a demo and thought we were a completely different company.",
   author: "Vik Sejal",
   title: "Head Of Sales",
-  image: "/chili.png"
+  image: publicAsset("/chili.png")
 };
 
 export const finalCtaSection = {
