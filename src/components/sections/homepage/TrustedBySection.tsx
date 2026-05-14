@@ -45,16 +45,22 @@ const TrustedBySection = () => {
                   className="flex items-center opacity-70 hover:opacity-100 transition-all duration-500 group flex-shrink-0 hover:scale-110"
                 >
                   <div className="relative p-4 rounded-2xl bg-white/50 backdrop-blur-sm border border-white/20 shadow-lg group-hover:shadow-2xl group-hover:bg-white/80 transition-all duration-500">
-                    <img
-                      src={company.logo}
-                      alt={company.name}
-                      className="h-16 w-auto max-w-[140px] object-contain transition-all duration-500"
-                      draggable="false"
-                      onError={(e) => {
-                        console.log(`Failed to load image for ${company.name}:`, company.logo);
-                        e.currentTarget.src = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMTIwIDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iNDgiIGZpbGw9IiNmM2Y0ZjYiLz48dGV4dCB4PSI2MCIgeT0iMjgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiM2Yjc2ODAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiI+TG9nbzwvdGV4dD48L3N2Zz4=";
-                      }}
-                    />
+                    {company.logo ? (
+                      <img
+                        src={company.logo}
+                        alt={company.name}
+                        className="h-16 w-auto max-w-[140px] object-contain transition-all duration-500"
+                        draggable="false"
+                        onError={(e) => {
+                          console.log(`Failed to load image for ${company.name}:`, company.logo);
+                          e.currentTarget.style.display = "none";
+                        }}
+                      />
+                    ) : (
+                      <div className="flex h-16 min-w-[140px] max-w-[180px] items-center justify-center rounded-xl bg-gradient-to-r from-primary/15 via-secondary/15 to-accent/15 px-4 text-center text-sm font-bold leading-tight text-primary shadow-inner">
+                        {company.name}
+                      </div>
+                    )}
                     {/* Enhanced glow effect */}
                     <div className="absolute inset-0 bg-gradient-to-r from-primary/30 to-secondary/30 rounded-2xl opacity-0 group-hover:opacity-100 transition-all duration-500 blur-2xl -z-10"></div>
                     

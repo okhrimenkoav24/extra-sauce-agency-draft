@@ -15,8 +15,8 @@ const Testimonials = () => {
       avatar: "/viksoni.png",
       impact: "Podcast Show",
       metrics: [
-        { label: "ARR Added", value: "428K", icon: DollarSign },
-        { label: "Qualified Meetings", value: "~16 meetings/mo", icon: Users }
+        { label: "ARR Added", value: "$428K ARR", icon: DollarSign },
+        { label: "Qualified Meetings", value: "~16 qualified meetings/mo", icon: Users }
       ],
       caseStudyUrl: "/success-stories",
       verified: true,
@@ -29,8 +29,8 @@ const Testimonials = () => {
       avatar: "/nadiairani.png",
       impact: "Executive Ghostwriting Service",
       metrics: [
-        { label: "Content Performance", value: "1.5M impressions", icon: TrendingUp },
-        { label: "Qualified Meetings", value: "~10 meetings/mo", icon: Users }
+        { label: "Content Performance", value: "1.5 million impressions", icon: TrendingUp },
+        { label: "Qualified Meetings", value: "~10 qualified meetings/mo", icon: Users }
       ],
       caseStudyUrl: "/success-stories",
       verified: true,
@@ -57,7 +57,7 @@ const Testimonials = () => {
       avatar: "/alexsalois.png", 
       impact: "Content-led GTM Coaching",
       metrics: [
-        { label: "Business Impact", value: "Investor Meetings", icon: TrendingUp },
+        { label: "Business Impact", value: "Investor Meetings Secured", icon: TrendingUp },
         { label: "Revenue Impact", value: "Meetings secured in LinkedIn DMs", icon: DollarSign }
       ],
       caseStudyUrl: "/success-stories",

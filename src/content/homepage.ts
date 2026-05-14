@@ -3,8 +3,8 @@
 
 export const heroSection = {
   badge: "#1 Content Growth Agency in North America",
-  headline: "We build you a B2B Brand Show that drives revenue - not just “content.”",
-  subheadline: "The Sauce Recipe™ turns your CEO/executive team into the category voice with a video engine that gets sales away from low-quality leads within 90 days",
+  headline: "We build B2B brand shows that make you the category go-to option and land dream customers.",
+  subheadline: "Get predictable pipeline from The Sauce Recipe™ and begin to scale profitably while getting your sales team away from low-quality leads within 90 days.",
   primaryButton: "Consult with Manny",
   secondaryButton: "View The Sauce Recipe™"
 };
@@ -45,44 +45,44 @@ export const trustedBySection = {
       name: "Faysal's Company",
       logo: "/company images/faysal-company.png",
     },
-    // {
-    //   name: "Joel Charter's Company",
-    //   logo: "/company images/joel-charter-company.png",
-    // },
-    // {
-    //   name: "Ice X",
-    //   logo: "/company images/ice-x.png",
-    // },
-    // {
-    //   name: "WISMOlabs",
-    //   logo: "/company images/wismolabs.png",
-    // },
-    // {
-    //   name: "Control D",
-    //   logo: "/company images/control-d.png",
-    // },
-    // {
-    //   name: "Scarsin",
-    //   logo: "/company images/scarsin.png",
-    // },
-    // {
-    //   name: "Amaith",
-    //   logo: "/company images/amaith.png",
-    // },
-    // {
-    //   name: "Genie AI",
-    //   logo: "/company images/genie-ai.png",
-    // },
-    // {
-    //   name: "EasyAudit",
-    //   logo: "/company images/easyaudit.png",
-    // },
+    {
+      name: "Joel Charter's Company",
+      logo: null,
+    },
+    {
+      name: "Ice X",
+      logo: null,
+    },
+    {
+      name: "WISMOlabs",
+      logo: null,
+    },
+    {
+      name: "Control D",
+      logo: null,
+    },
+    {
+      name: "Scarsin",
+      logo: null,
+    },
+    {
+      name: "Amaith",
+      logo: null,
+    },
+    {
+      name: "Genie AI",
+      logo: null,
+    },
+    {
+      name: "EasyAudit",
+      logo: null,
+    },
   ]
 };
 
 export const whoIsThisForSection = {
   headline: "You don't have a 'content' problem. You have a demand generation problem",
-  subheadline: "Most “content agencies” deliver posts. We deliver thought leadership on LinkedIn and YouTube that brings in revenue.",
+  subheadline: "We help B2B tech companies activate their founder, CEO and executives on LinkedIn and YouTube. We build binge-worthy B2B brand shows that buyers are excited to see on their social feed.",
   cta: "Check if you're a perfect fit ↓",
   companies: [
     {
@@ -141,7 +141,7 @@ export const processSection = {
 
 export const servicesOverviewSection = {
   headline: "We are not a content agency - We are a revenue agency",
-  subheadline: "Revenue, pipeline quality, engagement from target accounts, and cost efficiency - these are the metrics that drive success. On average, our clients start generating revenue from social media in under 4 months.",
+  subheadline: "We build a realm of influence so you close more deals with quality buyers using our proprietary content-led lead generation system, The Sauce Recipe™.",
   services: [
     {
       title: "Executive Content Engine",
@@ -156,7 +156,7 @@ export const servicesOverviewSection = {
         "Performance Reporting"
       ],
       descriptionBottom: "Turn your exec team into trusted thought leaders online without stealing time from the business. This is for teams that want executive authority that translates into revenue.",
-      link: "/services/executive-content-engine"
+      link: "/services/executive-ghostwriting"
     },
     {
       title: "B2B Brand Show",
@@ -172,7 +172,7 @@ export const servicesOverviewSection = {
         "Performance Measurement"
       ],
       descriptionBottom: "A binge-worthy show that becomes your company's demand engine that gets buyers excited to see it on their weekly feeds.",
-      link: "/services/b2b-brand-show"
+      link: "/services/video-content-engine"
     },
     {
       title: "Content-led Pipeline Sprint",
@@ -185,7 +185,7 @@ export const servicesOverviewSection = {
         "Phase 4: Thought Leadership Paid Social Strategy"
       ],
       descriptionBottom: "Teams not ready for a retainer (or locked into another vendor) but want our proven content-led pipeline system now to run themselves.",
-      link: "/services/content-led-pipeline-sprint"
+      link: "/services/content-led-gtm-coaching"
     }
   ]
 };
@@ -227,7 +227,7 @@ export const faqSection = {
 
 export const ctaSection = {
   headline: "AI is killing your brand trust. We make you the go-to option.",
-  description: "Modern B2B buyers don’t need a rep to guide the buying journey. If you’re not showing up early - with a point of view they trust - you’ll lose to the brand top of mind.",
+  description: "Modern B2B buyers are more sophisticated and do not need sales reps to guide their journey anymore. It is your job to show up in their discovery phase.",
   primaryButton: "Consult with Manny",
   secondaryButton: "View The Sauce Recipe™"
 };
